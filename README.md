@@ -78,4 +78,4 @@ screenshots/xss_popup.png
 
 ## 🌐 English Version
 
-[README_EN.md（Coming Soon）](#)
+[README_EN.md](#)
