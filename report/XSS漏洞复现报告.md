@@ -28,7 +28,7 @@ Reflected XSS（反射型跨站脚本）
 
 📷 截图
 
-放置路径：./screenshots/xss_popup.png
+<div align="center">   <img src="screenshots/xss_popup.png" width="400"/> </div>
 
 ---
 
