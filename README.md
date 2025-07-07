@@ -33,9 +33,10 @@
 ## 🛠️ 渗透步骤
 
 1. 登录 DVWA 后，选择左侧菜单：`XSS (Reflected)`
-2. 在输入框中输入以下内容：
+2. 在输入框中输入以下内容并提交：
 
 ```html
-<script>alert('XSS')</script>
+<script>alert('XSS 成功')</script>
+```
 
 3. 点击 Submit 后，弹出浏览器对话框，表示漏洞复现成功。
