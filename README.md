@@ -1,25 +1,39 @@
-# DVWA XSS 漏洞复现练习项目
+# 💥 DVWA Reflected XSS 漏洞复现练习
 
-本项目演示了如何在 DVWA（Damn Vulnerable Web Application）中复现一个反射型 XSS（Cross-site Scripting）漏洞。
+[![Language](https://img.shields.io/badge/language-PHP-blue)](https://www.php.net/)
+[![Platform](https://img.shields.io/badge/platform-Kali%20Linux-red)](https://www.kali.org/)
+[![License](https://img.shields.io/badge/license-Open-brightgreen)]()
+[![DVWA](https://img.shields.io/badge/DVWA-v1.10-orange)](https://github.com/digininja/DVWA)
+
+> 🎯 本项目通过 DVWA 靶场环境复现了一个反射型 XSS（Reflected Cross-site Scripting）漏洞，适合作为 Web 安全入门实验项目之一。
+
+---
 
 ## ✅ 项目目标
 
-- 了解 Reflected XSS 的基本原理
-- 通过 DVWA 靶场复现该漏洞
-- 学习攻击载荷的注入方式
+- 理解反射型 XSS 漏洞的成因与原理
+- 使用 DVWA 靶场手动构造 XSS 攻击载荷
+- 编写报告，作为渗透测试练习作品集的一部分
 
-## 🛠️ 技术栈
+---
 
-- Kali Linux
-- Apache2 + PHP + MariaDB
-- DVWA v1.10
-- 浏览器：Firefox
-- 工具：无
+## 🧪 环境信息
 
-## 📷 实验截图
+| 项目 | 版本 |
+|------|------|
+| 操作系统 | Kali Linux（物理机） |
+| 靶场系统 | DVWA v1.10 |
+| Web 服务 | Apache2 + PHP |
+| 数据库 | MariaDB |
+| 浏览器 | Firefox |
+| 语言 | PHP / HTML |
 
-![XSS 成功弹窗](./screenshots/xss_popup.png)
+---
 
-## 📄 报告文档
+## 🛠️ 渗透步骤
 
-查看完整报告：[report/XSS漏洞复现报告.md](./report/XSS漏洞复现报告.md)
+1. 登录 DVWA 后，选择左侧菜单：`XSS (Reflected)`
+2. 在输入框中输入以下内容：
+
+```html
+<script>alert('XSS')</script>
