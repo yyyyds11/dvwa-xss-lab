@@ -28,7 +28,7 @@ Reflected XSS（反射型跨站脚本）
 
 📷 截图
 
-![XSS Alert Screenshot](screenshots/xss_popup.png)
+![XSS Alert Screenshot](/screenshots/xss_popup.png)
 
 ---
 
