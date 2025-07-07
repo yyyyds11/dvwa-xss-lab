@@ -78,4 +78,5 @@ screenshots/xss_popup.png
 
 ## 🌐 English Version
 
-[README_EN.md](./README_EN.md)
+你也可以查看英文报告:[README_EN.md](./README_EN.md)
+
