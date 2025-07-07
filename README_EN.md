@@ -56,7 +56,7 @@ screenshots/xss_popup.png
 
 ## 📄 Vulnerability Report
 
-See detailed write-up in `[XSS漏洞复现报告.md](report/XSS漏洞复现报告.md)`
+See detailed write-up in [XSS漏洞复现报告.md](report/XSS漏洞复现报告.md)
 
 ---
 
