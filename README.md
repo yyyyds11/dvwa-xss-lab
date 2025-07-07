@@ -37,3 +37,5 @@
 
 ```html
 <script>alert('XSS')</script>
+
+3. 点击 Submit 后，弹出浏览器对话框，表示漏洞复现成功。
