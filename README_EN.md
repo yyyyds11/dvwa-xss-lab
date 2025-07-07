@@ -96,4 +96,4 @@ Feel free to reach out if you're recruiting for entry-level security roles in Ja
 
 ## 🌏 中文版
 
-你也可以查看中文报告：report/XSS漏洞复现报告.md
+你也可以查看中文报告：[XSS漏洞复现报告.md](report/XSS漏洞复现报告.md)
