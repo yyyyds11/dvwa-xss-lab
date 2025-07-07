@@ -36,7 +36,46 @@
 2. 在输入框中输入以下内容并提交：
 
 ```html
-<script>alert('XSS 成功')</script>
+<script>alert('XSS')</script>
 ```
 
 3. 点击 Submit 后，弹出浏览器对话框，表示漏洞复现成功。
+
+---
+
+## 📷 漏洞截图
+
+```
+screenshots/xss_popup.png
+```
+
+<div align="center">   <img src="screenshots/xss_popup.png" width="400"/> </div>
+
+## 📄 漏洞报告
+
+详见：`report/XSS漏洞复现报告.md`
+
+------
+
+## 🔧 修复建议
+
+- 使用 `htmlspecialchars()` 对用户输出进行 HTML 编码
+- 配置 CSP（内容安全策略）限制脚本来源
+- 对用户输入进行白名单校验
+
+------
+
+## 📚 后续计划
+
+- Reflected XSS（已完成 ✅）
+- Stored XSS（持久型 XSS）
+- SQL Injection（SQL 注入）
+- CSRF（跨站请求伪造）
+- File Upload 漏洞
+- TryHackMe 靶场实战
+
+------
+
+## 🌐 English Version
+
+[README_EN.md（Coming Soon）](#)
