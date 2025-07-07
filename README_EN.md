@@ -42,7 +42,7 @@
 3. A JavaScript alert box pops up, indicating that the payload was executed.
     This confirms the presence of a **Reflected XSS** vulnerability.
 
-
+---
 
 ## 📷 Screenshot
 
@@ -52,19 +52,21 @@ screenshots/xss_popup.png
 
 <div align="center">   <img src="screenshots/xss_popup.png" width="400"/> </div>
 
-------
+---
 
 ## 📄 Vulnerability Report
 
 See detailed write-up in `report/XSS漏洞复现报告.md`
 
-------
+---
 
 ## 🔐 Mitigation Recommendations
 
 - Use `htmlspecialchars()` to encode user outputs
 - Implement strict Content Security Policy (CSP) headers
 - Sanitize inputs with whitelisting and validation techniques
+
+---
 
 ## 🧭 Future Work
 
@@ -75,16 +77,22 @@ See detailed write-up in `report/XSS漏洞复现报告.md`
 - File Upload Exploits
 - TryHackMe Practical Labs
 
+---
+
 ## 🧠 Author Notes
 
 This project was completed as part of a beginner's penetration testing practice using DVWA.
  It is intended to demonstrate basic web vulnerability exploitation and is open for extension and enhancement.
+
+---
 
 ## 📫 Contact
 
 Feel free to reach out if you're recruiting for entry-level security roles in Japan or remote:
 
 - GitHub: https://github.com/yyyyds11
+
+---
 
 ## 🌏 中文版
 
