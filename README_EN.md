@@ -56,7 +56,7 @@ screenshots/xss_popup.png
 
 ## 📄 Vulnerability Report
 
-See detailed write-up in `report/XSS漏洞复现报告.md`
+See detailed write-up in `[XSS漏洞复现报告.md](report/XSS漏洞复现报告.md)`
 
 ---
 
@@ -96,4 +96,4 @@ Feel free to reach out if you're recruiting for entry-level security roles in Ja
 
 ## 🌏 中文版
 
-你也可以查看中文报告：[XSS漏洞复现报告.md](report/XSS漏洞复现报告.md)
+你也可以查看中文报告：[README.md](./README.md)
